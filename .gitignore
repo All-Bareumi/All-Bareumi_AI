@@ -1,0 +1,17 @@
+*.pkl
+*.jpg
+*.mp4
+*.pth
+*.pyc
+__pycache__
+*.h5
+*.avi
+*.wav
+*.mov
+Wav2Lip/filelists/*.txt
+Wav2Lip/evaluation/test_filelists/lr*.txt
+*.pyc
+*.mkv
+*.gif
+*.webm
+*.mp3
