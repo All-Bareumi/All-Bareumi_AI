@@ -14,6 +14,7 @@ DL Code / Flask BE server
     * 문제점
         * U-GOT-IT: pre-trained model이 없어 바닥부터 학습해야 하고, 다른 사람들이 만들어놓은 가중치로 실험했을 때 성능이 좋지 않았음
         * CartoonGAN: pre-trained model이 있긴 하나 결과 확인해보았을 때 애니메이션보다는 수채화 느낌 + 기대한 만큼의 성능 안나옴
+        * AnimeGANv2: 성능은 가장 좋으나 결과를 보면 뭉게지는 경향이 있음
         * 공통적으로 style transfer 모델이 모두 입모양을 제대로 볼 수 있을 만큼 정교하지 않음
         * SLR2 데이터 확보 문제: 지도 교수의 승인 필요
 
