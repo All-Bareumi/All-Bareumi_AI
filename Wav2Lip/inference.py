@@ -255,6 +255,8 @@ def main():
 			frame_h, frame_w = full_frames[0].shape[:-1]
 			out = cv2.VideoWriter('temp/result.avi', 
 									cv2.VideoWriter_fourcc(*'DIVX'), fps, (frame_w, frame_h))
+			#out = cv2.VideoWriter(args.outfile, 
+			#						cv2.VideoWriter_fourcc(*'DIVX'), fps, (frame_w, frame_h))
 
 		img_batch = torch.FloatTensor(np.transpose(img_batch, (0, 3, 1, 2))).to(device)
 		mel_batch = torch.FloatTensor(np.transpose(mel_batch, (0, 3, 1, 2))).to(device)
@@ -274,6 +276,8 @@ def main():
 	out.release()
 
 	command = 'ffmpeg -y -i {} -i {} -strict -2 -q:v 1 {}'.format(args.audio, 'temp/result.avi', args.outfile)
+	#print("command : ", command)
+	## file이 모두 존재하는데도 불구하고 에러가 날 때: 윈도우의 경우 cmd에서 ffmpeg 명령어 실행할 수 있는지 확인 필요 (conda install ffmpeg)
 	subprocess.call(command, shell=platform.system() != 'Windows')
 
 if __name__ == '__main__':
