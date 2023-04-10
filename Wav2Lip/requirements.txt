@@ -1,0 +1,14 @@
+audioread==3.0.0
+gTTS==2.3.1
+librosa==0.8.0
+mutagen==1.46.0
+NaverTTS==0.3.1
+numpy==1.23.5
+opencv-python==4.7.0.72
+Pillow==9.5.0
+scipy==1.10.1
+soundfile==0.12.1
+soupsieve==2.4
+torch==2.0.0
+torchvision==0.15.1
+tqdm==4.65.0
