@@ -1,4 +1,3 @@
-# python generate_lipsync.py --input_image ./my_data/arin.PNG --input_text "엄마 사랑해요" --gender 0
 import argparse
 import os
 import math
@@ -63,11 +62,20 @@ def main():
         output.write(img)
     output.release()
 
+    face = "./img2video/"+args.input_image.split('.')[0]+args.input_text.replace(' ','_')+".mp4"
+    audio = './TTS/'+args.input_text.replace(' ','_')+'.wav'
+    outfile = './FINAL/'+args.input_image.split('/')[2].split('.')[0]+'/'+args.input_text.replace(' ','_')+".mp4"
+
+    if not os.path.isdir('./FINAL/'+args.input_image.split('/')[2].split('.')[0]):
+        os.mkdir('./FINAL/'+args.input_image.split('/')[2].split('.')[0])
+
     # 위에서 만든 TTS 파일 + 이미지 영상 파일 합성하여 립싱크 모델 생성
-    string = 'python inference.py --checkpoint_path checkpoints/wav2lip_gan.pth --face ' + "./img2video/"+args.input_text.replace(' ','_')+".mp4" +' --audio '+'./TTS/'+args.input_text.replace(' ','_')+'.wav --outfile ./FINAL/'+args.input_text.replace(' ','_')+".mp4"
+    string = 'python inference.py --checkpoint_path checkpoints/wav2lip_gan.pth --face ' + face +' --audio '+ audio +' --outfile ' + outfile
     subprocess.call(string, shell=platform.system() != 'Windows')
 
 
 if __name__ == "__main__":
 	main()
 
+# python generate_lipsync.py --input_image ./my_data/hans.png --input_text "내가 제일 좋아하는 과일은 수박이란다" --gender 1
+# python generate_lipsync.py --input_image ./my_data/kristoff.png --input_text "내가 제일 좋아하는 과일은 수박이에요" --gender 1
