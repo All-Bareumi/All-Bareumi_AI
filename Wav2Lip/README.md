@@ -25,6 +25,9 @@ python generate_lipsync.py --input_image ./my_data/elsa.png --input_text "안나
 ## 예문 리스트(230411)
 * File: [FINAL.zip](./FINAL/FINAL.zip)
     * 캐릭터: 엘사, 안나, 크리스토프, 한스
+|안나|엘사|크리스토프|한스|
+|:---:|:---:|:---:|:---:|
+|![anna](./my_data/anna.png)|![elsa](./my_data/elsa.png)|![kristoff](./my_data/kristoff.png.png)|![hans](./my_data/hans.png)|
 
 ### 음식 관련
 1. 내가 제일 좋아하는 과일은 수박이에요  
