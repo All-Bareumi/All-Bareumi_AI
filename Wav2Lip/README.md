@@ -21,6 +21,8 @@ python generate_lipsync.py --input_image ./my_data/elsa.png --input_text "안나
 
 ## Result
 * 최종 결과 파일은 `FINAL` dir 안에 저장됨
+* `generate_lipsync.py` 의 main 함수 return 값은 영상이 저장된 경로(str)
+    * output string ex) /FINAL/elsa/안나야_가자_아렌델로.mp4
 
 ## 예문 리스트(230411)
 * File: [FINAL.zip](./FINAL/FINAL.zip)
