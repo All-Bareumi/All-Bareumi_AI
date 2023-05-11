@@ -73,6 +73,8 @@ def main():
     string = 'python inference.py --checkpoint_path checkpoints/wav2lip_gan.pth --face ' + face +' --audio '+ audio +' --outfile ' + outfile
     subprocess.call(string, shell=platform.system() != 'Windows')
 
+    return outfile
+
 
 if __name__ == "__main__":
 	main()
