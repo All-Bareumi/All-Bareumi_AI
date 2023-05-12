@@ -79,5 +79,4 @@ def main():
 if __name__ == "__main__":
 	main()
 
-# python generate_lipsync.py --input_image ./my_data/hans.png --input_text "내가 제일 좋아하는 과일은 수박이란다" --gender 1
 # python generate_lipsync.py --input_image ./my_data/kristoff.png --input_text "내가 제일 좋아하는 과일은 수박이에요" --gender 1
