@@ -70,8 +70,9 @@ python generate_lipsync.py --input_image ./my_data/elsa.png --input_text "안나
     * 음성을 너무 정확하게 인식함(발음이 뭉게지더라도 보정이 됨)
 #### 발음 분석 관련
 * 단순 정확도 계산: 전체 글자 중 몇 개를 맞췄는지
-<img src="./img/hi.png" width="22%">
     * 1:1 비교가 어려움
+<img src="./img/hi.png" width="22%">
+
 * Ground Truth 음성의 mel-spectrogram과 유사도 비교
     * 이미지 -> Histogram
     * cos 유사도
