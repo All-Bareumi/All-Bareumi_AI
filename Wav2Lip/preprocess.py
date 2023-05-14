@@ -76,6 +76,7 @@ def process_audio_file(vfile, args):
 	wavpath = path.join(fulldir, 'audio.wav')
 
 	command = template.format(vfile, wavpath)
+	print("command : ", command)
 	subprocess.call(command, shell=True)
 
 	
@@ -91,12 +92,15 @@ def mp_handler(job):
 def main(args):
 	print('Started processing for {} with {} GPUs'.format(args.data_root, args.ngpu))
 
-	filelist = glob(path.join(args.data_root, '*/*.mp4'))
+	#filelist = glob(path.join(args.data_root, '*/*.mp4'))
+	filelist = glob(args.data_root + '/*.mp4')
+
+	print("filelist length: ", len(filelist))
 
 	jobs = [(vfile, args, i%args.ngpu) for i, vfile in enumerate(filelist)]
 	p = ThreadPoolExecutor(args.ngpu)
 	futures = [p.submit(mp_handler, j) for j in jobs]
-	_ = [r.result() for r in tqdm(as_completed(futures), total=len(futures))]
+	#_ = [r.result() for r in tqdm(as_completed(futures), total=len(futures))]
 
 	print('Dumping audios...')
 
