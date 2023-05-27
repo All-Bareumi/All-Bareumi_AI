@@ -2,15 +2,12 @@
 DL Code / Flask BE server
 
 ---
-# TO DO (05.12 updated)
+# TO DO (05.27 updated)
 ## Wav2Lip
-* 전래동화 LipSync 생성 시 배경음악 제거 더 좋은 툴이 있는지
-* 모델 개선?
-
+* 전래동화 - 립싱크 캐릭터 화면 비율 조정
 
 ## OCR
-* Clova AI - Deep text recognition 모델 사용
-* 인식하는 글자가 어렵지 않으므로 Tesseract로도 충분하지 않을지
+* KAKAO - Pororo 사용해볼 예정
 
 ## Pronounce Analysis
-* Mel-Spectrogram 활용 방안 확정
+* Etri API 사용 확정
