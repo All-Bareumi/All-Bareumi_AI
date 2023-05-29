@@ -1,0 +1,726 @@
+{
+    "version": "V2",
+    "requestId": "562cde50-f4ed-48bd-989d-48c23b4888f0",
+    "timestamp": 1685327064934,
+    "images": [
+        {
+            "uid": "a110a3e3b5bc49ff8ac47858462f1405",
+            "name": "demo",
+            "inferResult": "SUCCESS",
+            "message": "SUCCESS",
+            "validationResult": {
+                "result": "NO_REQUESTED"
+            },
+            "convertedImageInfo": {
+                "width": 764,
+                "height": 401,
+                "pageIndex": 0,
+                "longImage": false
+            },
+            "fields": [
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 551.0,
+                                "y": 46.0
+                            },
+                            {
+                                "x": 600.0,
+                                "y": 46.0
+                            },
+                            {
+                                "x": 600.0,
+                                "y": 66.0
+                            },
+                            {
+                                "x": 551.0,
+                                "y": 66.0
+                            }
+                        ]
+                    },
+                    "inferText": "동물원",
+                    "inferConfidence": 0.9991,
+                    "type": "NORMAL",
+                    "lineBreak": true
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 521.0,
+                                "y": 102.0
+                            },
+                            {
+                                "x": 570.0,
+                                "y": 102.0
+                            },
+                            {
+                                "x": 570.0,
+                                "y": 120.0
+                            },
+                            {
+                                "x": 521.0,
+                                "y": 120.0
+                            }
+                        ]
+                    },
+                    "inferText": "어머나,",
+                    "inferConfidence": 1.0,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 575.0,
+                                "y": 103.0
+                            },
+                            {
+                                "x": 591.0,
+                                "y": 103.0
+                            },
+                            {
+                                "x": 591.0,
+                                "y": 120.0
+                            },
+                            {
+                                "x": 575.0,
+                                "y": 120.0
+                            }
+                        ]
+                    },
+                    "inferText": "너",
+                    "inferConfidence": 0.9998,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 596.0,
+                                "y": 102.0
+                            },
+                            {
+                                "x": 648.0,
+                                "y": 102.0
+                            },
+                            {
+                                "x": 648.0,
+                                "y": 120.0
+                            },
+                            {
+                                "x": 596.0,
+                                "y": 120.0
+                            }
+                        ]
+                    },
+                    "inferText": "누구니?",
+                    "inferConfidence": 1.0,
+                    "type": "NORMAL",
+                    "lineBreak": true
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 521.0,
+                                "y": 121.0
+                            },
+                            {
+                                "x": 539.0,
+                                "y": 121.0
+                            },
+                            {
+                                "x": 539.0,
+                                "y": 139.0
+                            },
+                            {
+                                "x": 521.0,
+                                "y": 139.0
+                            }
+                        ]
+                    },
+                    "inferText": "나",
+                    "inferConfidence": 1.0,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 542.0,
+                                "y": 121.0
+                            },
+                            {
+                                "x": 601.0,
+                                "y": 121.0
+                            },
+                            {
+                                "x": 601.0,
+                                "y": 140.0
+                            },
+                            {
+                                "x": 542.0,
+                                "y": 140.0
+                            }
+                        ]
+                    },
+                    "inferText": "호랑이야",
+                    "inferConfidence": 1.0,
+                    "type": "NORMAL",
+                    "lineBreak": true
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 521.0,
+                                "y": 151.0
+                            },
+                            {
+                                "x": 570.0,
+                                "y": 151.0
+                            },
+                            {
+                                "x": 570.0,
+                                "y": 169.0
+                            },
+                            {
+                                "x": 521.0,
+                                "y": 169.0
+                            }
+                        ]
+                    },
+                    "inferText": "어머나,",
+                    "inferConfidence": 0.9999,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 576.0,
+                                "y": 151.0
+                            },
+                            {
+                                "x": 591.0,
+                                "y": 151.0
+                            },
+                            {
+                                "x": 591.0,
+                                "y": 168.0
+                            },
+                            {
+                                "x": 576.0,
+                                "y": 168.0
+                            }
+                        ]
+                    },
+                    "inferText": "너",
+                    "inferConfidence": 1.0,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 596.0,
+                                "y": 151.0
+                            },
+                            {
+                                "x": 648.0,
+                                "y": 151.0
+                            },
+                            {
+                                "x": 648.0,
+                                "y": 168.0
+                            },
+                            {
+                                "x": 596.0,
+                                "y": 168.0
+                            }
+                        ]
+                    },
+                    "inferText": "누구니?",
+                    "inferConfidence": 0.9999,
+                    "type": "NORMAL",
+                    "lineBreak": true
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 521.0,
+                                "y": 171.0
+                            },
+                            {
+                                "x": 540.0,
+                                "y": 171.0
+                            },
+                            {
+                                "x": 540.0,
+                                "y": 189.0
+                            },
+                            {
+                                "x": 521.0,
+                                "y": 189.0
+                            }
+                        ]
+                    },
+                    "inferText": "나",
+                    "inferConfidence": 1.0,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 542.0,
+                                "y": 170.0
+                            },
+                            {
+                                "x": 601.0,
+                                "y": 170.0
+                            },
+                            {
+                                "x": 601.0,
+                                "y": 188.0
+                            },
+                            {
+                                "x": 542.0,
+                                "y": 188.0
+                            }
+                        ]
+                    },
+                    "inferText": "기린이야",
+                    "inferConfidence": 0.9998,
+                    "type": "NORMAL",
+                    "lineBreak": true
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 521.0,
+                                "y": 199.0
+                            },
+                            {
+                                "x": 570.0,
+                                "y": 199.0
+                            },
+                            {
+                                "x": 570.0,
+                                "y": 217.0
+                            },
+                            {
+                                "x": 521.0,
+                                "y": 217.0
+                            }
+                        ]
+                    },
+                    "inferText": "어머나,",
+                    "inferConfidence": 1.0,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 575.0,
+                                "y": 200.0
+                            },
+                            {
+                                "x": 591.0,
+                                "y": 200.0
+                            },
+                            {
+                                "x": 591.0,
+                                "y": 217.0
+                            },
+                            {
+                                "x": 575.0,
+                                "y": 217.0
+                            }
+                        ]
+                    },
+                    "inferText": "너",
+                    "inferConfidence": 0.9999,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 596.0,
+                                "y": 199.0
+                            },
+                            {
+                                "x": 648.0,
+                                "y": 199.0
+                            },
+                            {
+                                "x": 648.0,
+                                "y": 217.0
+                            },
+                            {
+                                "x": 596.0,
+                                "y": 217.0
+                            }
+                        ]
+                    },
+                    "inferText": "누구니?",
+                    "inferConfidence": 1.0,
+                    "type": "NORMAL",
+                    "lineBreak": true
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 521.0,
+                                "y": 218.0
+                            },
+                            {
+                                "x": 539.0,
+                                "y": 218.0
+                            },
+                            {
+                                "x": 539.0,
+                                "y": 236.0
+                            },
+                            {
+                                "x": 521.0,
+                                "y": 236.0
+                            }
+                        ]
+                    },
+                    "inferText": "나",
+                    "inferConfidence": 1.0,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 542.0,
+                                "y": 218.0
+                            },
+                            {
+                                "x": 601.0,
+                                "y": 218.0
+                            },
+                            {
+                                "x": 601.0,
+                                "y": 237.0
+                            },
+                            {
+                                "x": 542.0,
+                                "y": 237.0
+                            }
+                        ]
+                    },
+                    "inferText": "코끼리야",
+                    "inferConfidence": 0.9999,
+                    "type": "NORMAL",
+                    "lineBreak": true
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 521.0,
+                                "y": 248.0
+                            },
+                            {
+                                "x": 570.0,
+                                "y": 248.0
+                            },
+                            {
+                                "x": 570.0,
+                                "y": 266.0
+                            },
+                            {
+                                "x": 521.0,
+                                "y": 266.0
+                            }
+                        ]
+                    },
+                    "inferText": "어머나,",
+                    "inferConfidence": 0.9999,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 576.0,
+                                "y": 249.0
+                            },
+                            {
+                                "x": 591.0,
+                                "y": 249.0
+                            },
+                            {
+                                "x": 591.0,
+                                "y": 265.0
+                            },
+                            {
+                                "x": 576.0,
+                                "y": 265.0
+                            }
+                        ]
+                    },
+                    "inferText": "너",
+                    "inferConfidence": 0.9999,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 596.0,
+                                "y": 248.0
+                            },
+                            {
+                                "x": 648.0,
+                                "y": 248.0
+                            },
+                            {
+                                "x": 648.0,
+                                "y": 265.0
+                            },
+                            {
+                                "x": 596.0,
+                                "y": 265.0
+                            }
+                        ]
+                    },
+                    "inferText": "누구니?",
+                    "inferConfidence": 1.0,
+                    "type": "NORMAL",
+                    "lineBreak": true
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 521.0,
+                                "y": 267.0
+                            },
+                            {
+                                "x": 539.0,
+                                "y": 267.0
+                            },
+                            {
+                                "x": 539.0,
+                                "y": 285.0
+                            },
+                            {
+                                "x": 521.0,
+                                "y": 285.0
+                            }
+                        ]
+                    },
+                    "inferText": "나",
+                    "inferConfidence": 1.0,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 542.0,
+                                "y": 267.0
+                            },
+                            {
+                                "x": 587.0,
+                                "y": 267.0
+                            },
+                            {
+                                "x": 587.0,
+                                "y": 285.0
+                            },
+                            {
+                                "x": 542.0,
+                                "y": 285.0
+                            }
+                        ]
+                    },
+                    "inferText": "하마야",
+                    "inferConfidence": 1.0,
+                    "type": "NORMAL",
+                    "lineBreak": true
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 521.0,
+                                "y": 296.0
+                            },
+                            {
+                                "x": 570.0,
+                                "y": 296.0
+                            },
+                            {
+                                "x": 570.0,
+                                "y": 314.0
+                            },
+                            {
+                                "x": 521.0,
+                                "y": 314.0
+                            }
+                        ]
+                    },
+                    "inferText": "어머나,",
+                    "inferConfidence": 0.9998,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 576.0,
+                                "y": 297.0
+                            },
+                            {
+                                "x": 591.0,
+                                "y": 297.0
+                            },
+                            {
+                                "x": 591.0,
+                                "y": 314.0
+                            },
+                            {
+                                "x": 576.0,
+                                "y": 314.0
+                            }
+                        ]
+                    },
+                    "inferText": "너",
+                    "inferConfidence": 1.0,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 596.0,
+                                "y": 296.0
+                            },
+                            {
+                                "x": 648.0,
+                                "y": 296.0
+                            },
+                            {
+                                "x": 648.0,
+                                "y": 314.0
+                            },
+                            {
+                                "x": 596.0,
+                                "y": 314.0
+                            }
+                        ]
+                    },
+                    "inferText": "누구니?",
+                    "inferConfidence": 1.0,
+                    "type": "NORMAL",
+                    "lineBreak": true
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 521.0,
+                                "y": 316.0
+                            },
+                            {
+                                "x": 539.0,
+                                "y": 316.0
+                            },
+                            {
+                                "x": 539.0,
+                                "y": 333.0
+                            },
+                            {
+                                "x": 521.0,
+                                "y": 333.0
+                            }
+                        ]
+                    },
+                    "inferText": "나",
+                    "inferConfidence": 1.0,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 542.0,
+                                "y": 316.0
+                            },
+                            {
+                                "x": 587.0,
+                                "y": 316.0
+                            },
+                            {
+                                "x": 587.0,
+                                "y": 334.0
+                            },
+                            {
+                                "x": 542.0,
+                                "y": 334.0
+                            }
+                        ]
+                    },
+                    "inferText": "여우야",
+                    "inferConfidence": 1.0,
+                    "type": "NORMAL",
+                    "lineBreak": true
+                }
+            ]
+        }
+    ]
+}
