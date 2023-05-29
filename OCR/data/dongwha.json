@@ -1,0 +1,294 @@
+{
+    "version": "V2",
+    "requestId": "7d6cbd79-4a02-417f-bc71-34169cac7a92",
+    "timestamp": 1685337414135,
+    "images": [
+        {
+            "uid": "8c552199c20b4a38902e6618dd51ea92",
+            "name": "demo",
+            "inferResult": "SUCCESS",
+            "message": "SUCCESS",
+            "validationResult": {
+                "result": "NO_REQUESTED"
+            },
+            "convertedImageInfo": {
+                "width": 958,
+                "height": 1312,
+                "pageIndex": 0,
+                "longImage": false
+            },
+            "fields": [
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 261.0,
+                                "y": 1089.0
+                            },
+                            {
+                                "x": 323.0,
+                                "y": 1089.0
+                            },
+                            {
+                                "x": 323.0,
+                                "y": 1130.0
+                            },
+                            {
+                                "x": 261.0,
+                                "y": 1130.0
+                            }
+                        ]
+                    },
+                    "inferText": "침대",
+                    "inferConfidence": 0.9999,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 326.0,
+                                "y": 1089.0
+                            },
+                            {
+                                "x": 387.0,
+                                "y": 1089.0
+                            },
+                            {
+                                "x": 387.0,
+                                "y": 1127.0
+                            },
+                            {
+                                "x": 326.0,
+                                "y": 1127.0
+                            }
+                        ]
+                    },
+                    "inferText": "벽을",
+                    "inferConfidence": 1.0,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 388.0,
+                                "y": 1087.0
+                            },
+                            {
+                                "x": 447.0,
+                                "y": 1087.0
+                            },
+                            {
+                                "x": 447.0,
+                                "y": 1127.0
+                            },
+                            {
+                                "x": 388.0,
+                                "y": 1127.0
+                            }
+                        ]
+                    },
+                    "inferText": "뜯어",
+                    "inferConfidence": 1.0,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 451.0,
+                                "y": 1086.0
+                            },
+                            {
+                                "x": 512.0,
+                                "y": 1086.0
+                            },
+                            {
+                                "x": 512.0,
+                                "y": 1126.0
+                            },
+                            {
+                                "x": 451.0,
+                                "y": 1126.0
+                            }
+                        ]
+                    },
+                    "inferText": "버릴",
+                    "inferConfidence": 0.9999,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 511.0,
+                                "y": 1085.0
+                            },
+                            {
+                                "x": 655.0,
+                                "y": 1082.0
+                            },
+                            {
+                                "x": 655.0,
+                                "y": 1121.0
+                            },
+                            {
+                                "x": 512.0,
+                                "y": 1124.0
+                            }
+                        ]
+                    },
+                    "inferText": "정도였지요.",
+                    "inferConfidence": 0.9999,
+                    "type": "NORMAL",
+                    "lineBreak": true
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 264.0,
+                                "y": 1143.0
+                            },
+                            {
+                                "x": 383.0,
+                                "y": 1143.0
+                            },
+                            {
+                                "x": 383.0,
+                                "y": 1182.0
+                            },
+                            {
+                                "x": 264.0,
+                                "y": 1182.0
+                            }
+                        ]
+                    },
+                    "inferText": "아줌마는",
+                    "inferConfidence": 0.9999,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 384.0,
+                                "y": 1141.0
+                            },
+                            {
+                                "x": 474.0,
+                                "y": 1139.0
+                            },
+                            {
+                                "x": 475.0,
+                                "y": 1180.0
+                            },
+                            {
+                                "x": 384.0,
+                                "y": 1182.0
+                            }
+                        ]
+                    },
+                    "inferText": "날마다",
+                    "inferConfidence": 1.0,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 474.0,
+                                "y": 1139.0
+                            },
+                            {
+                                "x": 585.0,
+                                "y": 1136.0
+                            },
+                            {
+                                "x": 586.0,
+                                "y": 1178.0
+                            },
+                            {
+                                "x": 475.0,
+                                "y": 1181.0
+                            }
+                        ]
+                    },
+                    "inferText": "아기한테",
+                    "inferConfidence": 0.9999,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 586.0,
+                                "y": 1136.0
+                            },
+                            {
+                                "x": 723.0,
+                                "y": 1133.0
+                            },
+                            {
+                                "x": 723.0,
+                                "y": 1173.0
+                            },
+                            {
+                                "x": 587.0,
+                                "y": 1176.0
+                            }
+                        ]
+                    },
+                    "inferText": "아보카도를",
+                    "inferConfidence": 1.0,
+                    "type": "NORMAL",
+                    "lineBreak": false
+                },
+                {
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 725.0,
+                                "y": 1132.0
+                            },
+                            {
+                                "x": 839.0,
+                                "y": 1132.0
+                            },
+                            {
+                                "x": 839.0,
+                                "y": 1170.0
+                            },
+                            {
+                                "x": 725.0,
+                                "y": 1170.0
+                            }
+                        ]
+                    },
+                    "inferText": "먹였어요.",
+                    "inferConfidence": 0.9981,
+                    "type": "NORMAL",
+                    "lineBreak": true
+                }
+            ]
+        }
+    ]
+}
