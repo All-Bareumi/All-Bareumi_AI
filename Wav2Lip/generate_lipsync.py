@@ -16,6 +16,7 @@ def parse_args():
     parser.add_argument('--input_image', type=str, required=True, help='target image path')
     parser.add_argument('--input_text', type=str, required=True, help='text what you want to generate')
     parser.add_argument('--gender', type=int, default='0', help='0 woman 1 man')
+    parser.add_argument('--out_path', type=str, required=False, help='result lipsync video path')
 
     return check_args(parser.parse_args())
 
@@ -64,8 +65,9 @@ def main():
 
     face = "./img2video/"+args.input_image.split('.')[0]+args.input_text.replace(' ','_')+".mp4"
     audio = './TTS/'+args.input_text.replace(' ','_')+'.wav'
-    outfile = './FINAL/'+args.input_image.split('/')[2].split('.')[0]+'/'+args.input_text.replace(' ','_')+".mp4"
-
+    #outfile = './FINAL/'+args.input_image.split('/')[2].split('.')[0]+'/'+args.input_text.replace(' ','_')+".mp4"
+    outfile = args.out_path
+    
     if not os.path.isdir('./FINAL/'+args.input_image.split('/')[2].split('.')[0]):
         os.mkdir('./FINAL/'+args.input_image.split('/')[2].split('.')[0])
 
