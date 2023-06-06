@@ -3,7 +3,7 @@ sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
 
 from Wav2Lip import generate_lipsync
 
-from flask import Flask, request
+from flask import Flask, request, jsonify
 from flask_restx import Resource, Api
 
 app = Flask(__name__)
@@ -16,9 +16,8 @@ class Sentence(Resource):
         input_text = request.json.get('input_text')
         input_image = '../Wav2Lip/my_data/'+request.json.get('character')
         out_path = request.json.get('out_path')
-        result = generate_lipsync.generate(gender,input_text,input_image,out_path);
-        return {"success" : result}
-        
+        filename = request.json.get('filename')
+        return jsonify({'success': generate_lipsync.generate(gender,input_text,input_image,out_path,filename),'path':out_path+filename});
         
 
 if __name__ == "__main__":
