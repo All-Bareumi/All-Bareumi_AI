@@ -1,12 +1,9 @@
 #-*- coding:utf-8 -*-
 import urllib3
 import json
-import scipy.io.wavfile as wav
-import numpy as np
 import base64
 import soundfile as sf
 import librosa
-import binascii
 
 #openApiURL = "http://aiopen.etri.re.kr:8000/WiseASR/Pronunciation" # 영어
 openApiURL = "http://aiopen.etri.re.kr:8000/WiseASR/PronunciationKor" # 한국어
