@@ -149,8 +149,8 @@ def mainjamo(ans, speak, case):
     }
 
     # JSON 데이터를 파일에 저장
-    with open("my_anal.json", "w") as json_file:
-        json.dump(data, json_file, ensure_ascii=False, indent=4)
+    #with open("my_anal.json", "w") as json_file:
+    #    json.dump(data, json_file, ensure_ascii=False, indent=4)
 
     #print(json.dumps(data, ensure_ascii=False))
 
@@ -405,5 +405,5 @@ def my_pro_eval(ground_truth, my_pro):
 
     return final_acc
 
-final_acc = my_pro_eval(ground_truth, my_pro)
-print(final_acc)
+#final_acc = my_pro_eval(ground_truth, my_pro)
+#print(final_acc)

@@ -52,7 +52,6 @@ def pro_eval(audioFilePath, script):
 
     return pro_eval_score
 
-if __name__ == "__main__":
-    pro_eval_score = pro_eval(audioFilePath, script)
-    print(pro_eval_score)
+#pro_eval_score = pro_eval(audioFilePath, script)
+#print(pro_eval_score)
 
