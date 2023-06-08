@@ -1,4 +1,5 @@
-from hangul_utils import join_jamos
+#from hangul_utils import join_jamos
+from unicode import join_jamos
 from jamo import h2j, j2hcj, get_jamo_class
 import re
 import json
@@ -366,8 +367,6 @@ def remove_marks(string):  # 특수문자(마침표 포함) 제거 함수
     return re.sub('[.-=+,#/\?:^$.@*\"※~&%ㆍ!』\\‘|\(\)\[\]\<\>`\'…》]', '', string)
 
 ##########################################################################################
-ground_truth = "굳이 그래야해?"
-my_pro = "구지 그래야해?"
 
 def my_pro_eval(ground_truth, my_pro):
     letter_total = 0 # 전체 글자 수
@@ -405,5 +404,8 @@ def my_pro_eval(ground_truth, my_pro):
 
     return final_acc
 
-#final_acc = my_pro_eval(ground_truth, my_pro)
-#print(final_acc)
+ground_truth = "안녕하세요"
+my_pro = "안녕하세요"
+
+final_acc = my_pro_eval(ground_truth, my_pro)
+print(final_acc)
