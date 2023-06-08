@@ -3,7 +3,7 @@ sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
 
 from Wav2Lip import generate_lipsync
 from OCR.src import ocr_api
-from Pronounce_Evaluation import pro_eval
+from Pronounce_Evaluation import eval_main
 from flask import Flask, request, jsonify
 from flask_restx import Resource, Api
 
@@ -32,7 +32,7 @@ class PE(Resource):
     def post(self):
         file = request.json.get('filename')
         sentence = request.json.get('sentence')
-        return pro_eval.pro_eval(file,sentence)
+        return eval_main.eval_main(file,sentence)
 
 
 if __name__ == "__main__":
