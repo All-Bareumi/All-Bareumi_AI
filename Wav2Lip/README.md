@@ -39,11 +39,11 @@ python generate_lipsync.py --input_image ./my_data/elsa.png --input_text "안나
 2. 나는 엄마랑 밥을 먹을 때 가장 행복해요  
 3. 나는 초콜릿과 사탕을 매우 좋아해요  
 4. 나는 피자와 핫도그를 좋아해요  
-5. 오늘 점심에는 치킨 너겟과 감자 튀김을 먹을 거예요  
+5. 오늘 점심에는 고기를 먹을 거예요
 
 ### 운동 관련
 1. 나는 놀이공원에서 롤러코스터를 탈 거예요  
-2. 나는 자전거를 타고 주변을 돌아다니면서 신나게 운동해요  
+2. 나는 자전거를 잘 타요
 3. 오늘 유치원에서 달리기를 했어요  
 4. 친구들과 축구를 하면 기분이 좋아져요  
 5. 나는 달리기를 잘해요  
@@ -61,21 +61,4 @@ python generate_lipsync.py --input_image ./my_data/elsa.png --input_text "안나
 3. 우리 학교에는 도서관이 있어요  
 4. 내일은 학교에 가는 날이에요  
 5. 친구들과 먹는 급식은 맛있어요  
-
-
----
-## ISSUE
-#### 음성 인식(Speech to Text) 관련
-* SpeechRecognition 라이브러리 사용
-    * 음성을 너무 정확하게 인식함(발음이 뭉게지더라도 보정이 됨)
-#### 발음 분석 관련
-* 단순 정확도 계산: 전체 글자 중 몇 개를 맞췄는지
-    * 1:1 비교가 어려움
-<img src="./img/hi.png" width="22%">
-
-* Ground Truth 음성의 mel-spectrogram과 유사도 비교
-    * 이미지 -> Histogram
-    * cos 유사도
-    * 특징점 비교(SHIFT)
-    * 특성 매칭(FLANN(Fast Library for Approximate Nearest Neighbors))
 
