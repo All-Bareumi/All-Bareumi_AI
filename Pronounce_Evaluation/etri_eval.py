@@ -11,7 +11,7 @@ import binascii
 #openApiURL = "http://aiopen.etri.re.kr:8000/WiseASR/Pronunciation" # 영어
 openApiURL = "http://aiopen.etri.re.kr:8000/WiseASR/PronunciationKor" # 한국어
 
-accessKey = "8519138f-78d7-4e14-bd25-2a38a11ccd15"
+accessKey = ""
 audioFilePath = "./fem_correct copy.wav"
 script = "안녕하세요"
 
