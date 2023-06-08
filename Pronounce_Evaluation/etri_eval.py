@@ -1,15 +1,18 @@
 #-*- coding:utf-8 -*-
 import urllib3
 import json
+import scipy.io.wavfile as wav
+import numpy as np
 import base64
 import soundfile as sf
 import librosa
+import binascii
 
 #openApiURL = "http://aiopen.etri.re.kr:8000/WiseASR/Pronunciation" # 영어
 openApiURL = "http://aiopen.etri.re.kr:8000/WiseASR/PronunciationKor" # 한국어
 
-accessKey = ""
-audioFilePath = "./fem_correct.wav"
+accessKey = "8519138f-78d7-4e14-bd25-2a38a11ccd15"
+audioFilePath = "./fem_correct copy.wav"
 script = "안녕하세요"
 
 
